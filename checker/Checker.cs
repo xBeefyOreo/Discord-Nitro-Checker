@@ -18,10 +18,6 @@ Console.WriteLine("Discord Nitro CHECKER!");
 Console.WriteLine(" ");
 
 
-//foreach (string line in File.ReadLines(@".\episodeS.txt"))
-//{
-//    Console.WriteLine(template + line);   
-//}
 
 using (StreamReader sr = new StreamReader("codes.txt")) {
   string line;
@@ -35,12 +31,6 @@ if( new FileInfo( "codes.txt" ).Length == 0 )
 {
   Console.WriteLine("File codes.txt is Empty!");
 }
-
-//if(userInput == "dwa")
-//{
-//for (int line = 0; line < 10; line++)
-//    Console.Write(template + line);
-//}
 
         }
     }
